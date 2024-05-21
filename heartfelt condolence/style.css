@@ -1,0 +1,51 @@
+*{
+    margin: 5px;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;   
+}
+
+body{
+    background: linear-gradient(145deg, grey, white);
+}
+
+.Container{
+    margin-left: 15%;
+    margin-right: 15%;
+    border: 5px solid black;
+}
+
+#title{
+    text-decoration: underline;
+    text-align: center;
+    font-style: italic;
+}
+
+#person{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+#picture{
+    border: 5px solid goldenrod;
+    padding: 0;
+    height: 40%;
+    width: 40%;
+}
+
+#name{
+    text-decoration: underline;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#myname{
+    text-align: left;
+}
+
+.content{
+    text-align: justify;   
+    font-size: 20px;
+}
