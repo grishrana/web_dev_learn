@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">Registration Form</div>
+        <hr>
+        <form>
+            <div class="User-details">
+                <div class="details">
+                    <span class="details">Full Name:</span><br>
+                    <input type="text" name="name" id="name" placeholder="Enter full name" required>
+                </div>
+
+                <div class="details">
+                    <span class="details">Username:</span><br>
+                    <input type="text" name="uname" id="uname" placeholder="Enter Username" required>
+                </div>
+
+                <div class="details">
+                    <span class="details">Email:</span><br>
+                    <input type="email" name="mail" id="mail" placeholder="Enter email" required>
+                </div>
+
+                <div class="details">
+                    <span class="details">Phone number:</span><br>
+                    <input type="number" name="num" id="num" placeholder="Enter phone number" required>
+                </div>
+
+                <div class="details">
+                    <span class="details">Password:</span><br>
+                    <input type="password" name="pw" id="pw" placeholder="Enter password" required>
+                </div>
+                
+                <div class="details">
+                    <span class="details">Confirm Password:</span><br>
+                    <input type="password" name="cpw" id="cpw" placeholder="Confirm password" required>
+                </div>
+                
+                    
+            </div>
+
+            <div class="Gender">
+                <span id="Gender">Gender:</span><br>
+                <div class="gender_options">
+                    <input type="radio" name="gender" id="male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="Female">
+                    <label for="Female">Female</label>
+                    <input type="radio" name="gender" id="nogender">
+                    <label for="nogender">Rather Not Say</label>
+                </div>
+            </div>
+
+            <input type="submit" value="Register" id="submit_btn">
+        </form>
+        </div>
+    </div>
+    
+</body>
+</html>
